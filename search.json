@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About",
+      "description": "More information about me",
       "author": [],
       "contents": "",
-      "last_modified": "2021-01-17T12:41:32+00:00"
+      "last_modified": "2021-01-17T12:55:52+00:00"
     },
     {
       "path": "index.html",
       "title": "Home",
       "author": [],
       "contents": "",
-      "last_modified": "2021-01-17T12:41:34+00:00"
+      "last_modified": "2021-01-17T12:55:53+00:00"
     },
     {
       "path": "test.html",
@@ -27,7 +27,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nThis is a test at creating a distill document.\r\n\r\n[1] 1e+06\r\n\r\nHello world!\r\n\\[\\sigma = \\alpha^2\\]\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-17T12:41:40+00:00"
+      "last_modified": "2021-01-17T12:56:00+00:00"
+    },
+    {
+      "path": "work.html",
+      "title": "work",
+      "author": [],
+      "contents": "",
+      "last_modified": "2021-01-17T12:56:02+00:00"
     }
   ],
   "collections": []
