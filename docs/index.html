@@ -86,33 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Robert Harling: test</title>
-  
-  <meta property="description" itemprop="description" content="A new article created using the Distill format."/>
+  <title>Robert Harling: Home</title>
   
   
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-01-17"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-01-17"/>
-  <meta name="article:author" content="Robert Harling"/>
+  
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Robert Harling: test"/>
+  <meta property="og:title" content="Robert Harling: Home"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="A new article created using the Distill format."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Robert Harling"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Robert Harling: test"/>
-  <meta property="twitter:description" content="A new article created using the Distill format."/>
+  <meta property="twitter:title" content="Robert Harling: Home"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["test"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Robert Harling"]},{"type":"character","attributes":{},"value":["https://example.com/robertharling"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-01-17"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Home"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2009,7 +2002,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"test","description":"A new article created using the Distill format.","authors":[{"author":"Robert Harling","authorURL":"https://example.com/robertharling","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-01-17T00:00:00.000+00:00","citationText":"Harling, 2021"}
+{"title":"Home","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2020,9 +2013,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="index.html" class="title">Robert Harling</a>
 </div>
 <div class="nav-right">
+<a href="index.html">Home</a>
 <a href="about.html">About</a>
-<a href="index.html">Index</a>
-<a href="work.html">Projects</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+test
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="test.html">This is what you came for</a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2032,26 +2034,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>test</h1>
+<h1>Home</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A new article created using the Distill format.</p></p>
+
 </div>
 
-<div class="d-byline">
-  Robert Harling <a href="https://example.com/robertharling" class="uri">https://example.com/robertharling</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
-  
-<br/>2021-01-17
-</div>
 
 <div class="d-article">
-<p>This is a test at creating a distill document.</p>
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] 1e+06</code></pre>
-</div>
-<p>Hello world!</p>
-<p><span class="math display">\[\sigma = \alpha^2\]</span></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th>Me</th>
+<th>About Me</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>Hello! Welcome to my website! All about me! Online Global Priorities Research Reading Group Medium Blog EA Forum Account</p>
+<p>Linkedin</p>
+<p>Twitter</p>
+<p>Other Work</p>
+<p>Here’s an equation:</p>
+<p><span class="math display">\[e^{i\pi}+1=0\]</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
