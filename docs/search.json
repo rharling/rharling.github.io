@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-17T12:23:26+00:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Home",
+      "author": [],
+      "contents": "\r\nMe\r\nAbout Me\r\nHello! Welcome to my website! All about me! Online Global Priorities Research Reading Group Medium Blog EA Forum Account\r\nLinkedin\r\nTwitter\r\nOther Work\r\nHere’s an equation:\r\n\\[e^{i\\pi}+1=0\\]\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-17T12:23:28+00:00"
+    },
+    {
+      "path": "test.html",
+      "title": "test",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Robert Harling",
+          "url": "https://example.com/robertharling"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nThis is a test at creating a distill document.\r\n\r\n[1] 1e+06\r\n\r\nHello world!\r\n\\[\\sigma = \\alpha^2\\]\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-17T12:23:31+00:00"
+    }
+  ],
+  "collections": []
+}
