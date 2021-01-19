@@ -6,14 +6,14 @@
       "description": "More information about me",
       "author": [],
       "contents": "\r\nMy name is Robert Harling. I’m interested in maths, economics, effective altruism and global priorities research.\r\nI have an MMath from Warwick University.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-18T17:29:17+00:00"
+      "last_modified": "2021-01-18T17:44:56+00:00"
     },
     {
       "path": "index.html",
       "title": "Home",
       "author": [],
       "contents": "\r\nHello welcome to my personal website!\r\nHere are some links about me:\r\nLinkedin\r\nEffective Altruism Forum Account\r\nMedium Blog\r\nTwitter\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-18T17:29:19+00:00"
+      "last_modified": "2021-01-18T17:44:58+00:00"
     },
     {
       "path": "test.html",
@@ -27,14 +27,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nThis is a test at creating a distill document.\r\n\r\n[1] 1e+06\r\n\r\nHello world!\r\n\\[\\sigma = \\alpha^2\\]\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-18T17:29:22+00:00"
+      "last_modified": "2021-01-18T17:45:01+00:00"
     },
     {
       "path": "work.html",
       "title": "Projects",
       "author": [],
-      "contents": "",
-      "last_modified": "2021-01-18T17:29:32+00:00"
+      "contents": "\r\nHere some links to different things I’ve done:\r\nThe Polynomial Method in Arithmetic Combinatorics (Masters Dissertation)\r\nX-risks to all life v. to humans (EA Forum post)\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-18T17:45:03+00:00"
     }
   ],
   "collections": []
